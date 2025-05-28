@@ -1,10 +1,9 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
 h1{
     text-align: center;
     text-transform: Capitalize;
-}
-#para1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
 }
 #outer {
     font-size: 25px;
