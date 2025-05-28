@@ -1,12 +1,7 @@
-#heading1 {
-    color: rgb(54, 86, 248)
+body {
+    text-align: left;
 }
-#heading2 {
-    color: rgb(115, 249, 94)
-}
-#heading3 {
-    color: rgb(250, 61, 61)
-}
-.class1 {
-    color: rgb(250, 41, 229)
+
+p {
+    text-align: center;
 }
