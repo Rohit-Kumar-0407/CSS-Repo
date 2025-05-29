@@ -1,9 +1,11 @@
-h1 {
+div {
     height: 100px;
-    width: 300px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid rgb(255, 17, 0);
     text-align: center;
-    background-color: rgb(32, 208, 248);
-    border-width: 3px;
-    border-style: dotted;
-    border-color: greenyellow
+    /* border-radius: 10px; */
+    padding: 10px;
+    padding-top: 50px;
+
 }
