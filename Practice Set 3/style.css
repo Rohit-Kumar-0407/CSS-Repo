@@ -10,7 +10,7 @@ body {
 }
 #main {
     border: 5px solid white;
-    background-color: black;
+    background-color: #0f1111;
     padding-bottom: 20px;
     color: white;
     width: 1000px;
@@ -18,28 +18,28 @@ body {
 #MainPage {
     color: goldenrod;
     text-decoration: none;
-    padding-right: 100px;
-    font-size: 20px;
+    padding-right: 200px;
+    font-size: 25px;
 }
 #Account {
     color: white;
     text-decoration: none;
-    padding-right: 100px;
+    padding-right: 20px;
     font-size: 13px;
 }
 #MyCart {
     color: white;
     text-decoration: none;
-    padding-right: 100px;
+    padding-right: 20px;
     font-size: 13px;
 }
 #ContactUs {
     color: white;
     text-decoration: none;
-    padding-right: 100px;
+    padding-right: 20px;
     font-size: 13px;
 }
 #SearchB {
-    background-color: rgb(255, 174, 0);
+    background-color: #f08804;
     color: white;
 }
