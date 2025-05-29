@@ -18,25 +18,25 @@ body {
 #MainPage {
     color: goldenrod;
     text-decoration: none;
-    padding-right: 200px;
+    margin-right: 20px;
     font-size: 25px;
 }
 #Account {
     color: white;
     text-decoration: none;
-    padding-right: 20px;
+    margin-right: 20px;
     font-size: 13px;
 }
 #MyCart {
     color: white;
     text-decoration: none;
-    padding-right: 20px;
+    margin-right: 20px;
     font-size: 13px;
 }
 #ContactUs {
     color: white;
     text-decoration: none;
-    padding-right: 20px;
+    margin-right: 20px;
     font-size: 13px;
 }
 #SearchB {
