@@ -1,0 +1,11 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid rgb(255, 17, 0);
+    text-align: center;
+    /* border-radius: 10px; */
+    padding: 10px;
+    padding-top: 50px;
+
+}
