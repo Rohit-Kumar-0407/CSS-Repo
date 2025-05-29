@@ -1,0 +1,44 @@
+body {
+    background-color: aqua;
+}
+#outer {
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 3px solid red;
+    border-radius: 50%;
+}
+#main {
+    border: 5px solid white;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+}
+#MainPage {
+    color: goldenrod;
+    text-decoration: none;
+    padding-right: 100px;
+    font-size: 20px;
+}
+#Account {
+    color: white;
+    text-decoration: none;
+    padding-right: 100px;
+    font-size: 13px;
+}
+#MyCart {
+    color: white;
+    text-decoration: none;
+    padding-right: 100px;
+    font-size: 13px;
+}
+#ContactUs {
+    color: white;
+    text-decoration: none;
+    padding-right: 100px;
+    font-size: 13px;
+}
+#SearchB {
+    background-color: rgb(255, 174, 0);
+    color: white;
+}
