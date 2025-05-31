@@ -38,3 +38,8 @@ div {
 #box5 {
     background-color: rgb(255, 36, 248);
 }
+@media(min-width: 1200px) and (max-width: 1300px) {
+    div {
+        background-color: red;
+    }
+}
