@@ -1,0 +1,70 @@
+body {
+    background-color: azure;
+}
+#main {
+    border: 5px solid white;
+    background-color: #0f1111;
+    padding-bottom: 20px;
+    color: white;
+}
+#MainPage {
+    color: goldenrod;
+    text-decoration: none;
+    margin: 2px;
+    font-size: 25px;
+}
+#Account {
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+    font-size: 13px;
+}
+#MyCart {
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+    font-size: 13px;
+}
+#ContactUs {
+    color: white;
+    text-decoration: none;
+    margin-left: 200px;
+    font-size: 13px;
+}
+input {
+    margin-left: 300px;
+}
+#SearchB {
+    background-color: #f08804;
+    color: white;
+}
+#div1 {
+    height: 100px;
+    width: 100px;
+    background-color:rgba(255,0,0,0.5);
+    margin: 10px;
+    border: 3px solid black;
+    display: inline-block;
+}
+#div2 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0,255,0,0.5);
+    margin: 10px;
+    border: 3px solid black;
+    display: inline-block;
+}
+#div3 {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0,0,255,0.5);
+    margin: 10px;
+    border: 3px solid black;
+    display: inline-block;
+}
+footer {
+    text-align: center;
+}
+main {
+    height: 600px;
+}
