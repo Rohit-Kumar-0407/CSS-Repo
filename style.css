@@ -1,44 +1,12 @@
-body {
-    text-align: center;
-}
-#main {
-    height: 400px;
-    width: 800px;
-    border: 2px solid black;
-    margin-left: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap:wrap;
-    align-items: center;
-}
 div {
     height: 200px;
     width: 200px;
-    display: inline-block;
-    text-align: center;
-    border: 2px solid black;
-}
-#box1 {
+    margin: 200px 200px 200px 300px;
     background-color: aquamarine;
-    animation: colouranimate 1s ease 1s infinite;
+    border: 2px solid black;
+    transition: color 0.2s ease 0s;
 }
-#box2 {
-    background-color: rgb(255, 255, 36);
-    height: 100px;
-}
-#box3 {
-    background-color: rgb(94, 255, 36);
-    height: 25px;
-    align-self: flex-end;
-}
-#box4 {
-    background-color: rgb(36, 255, 240);
-}
-#box5 {
-    background-color: rgb(255, 36, 248);
-}
-@keyframes colouranimate {
-    from { margin-left: 200px;}
-    to { margin-right: 200px;}
+div:active {
+    background-color: red;
+    color: white;
 }
