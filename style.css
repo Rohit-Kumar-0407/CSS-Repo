@@ -13,15 +13,15 @@ body {
     align-items: center;
 }
 div {
-    height: 50px;
+    height: 200px;
     width: 200px;
     display: inline-block;
     text-align: center;
-    /* padding-top: 40px; */
     border: 2px solid black;
 }
 #box1 {
-    background-color: rgb(255, 36, 36);
+    background-color: aquamarine;
+    animation: colouranimate 1s ease 1s infinite;
 }
 #box2 {
     background-color: rgb(255, 255, 36);
@@ -38,8 +38,7 @@ div {
 #box5 {
     background-color: rgb(255, 36, 248);
 }
-@media(min-width: 1200px) and (max-width: 1300px) {
-    div {
-        background-color: red;
-    }
+@keyframes colouranimate {
+    from { margin-left: 200px;}
+    to { margin-right: 200px;}
 }
