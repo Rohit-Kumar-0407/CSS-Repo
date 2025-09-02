@@ -1,23 +1,12 @@
 div {
     height: 200px;
     width: 200px;
-    /* padding: 50px 50px 50px 50px; */
     margin: 200px 200px 200px 300px;
     background-color: aquamarine;
     border: 2px solid black;
-    animation: animate 2s ease 0s infinite normal;
+    transition: color 0.2s ease 0s;
 }
-
-@keyframes animate {
-    0% {
-        margin-left: 0px;
-        background-color: aquamarine;
-    }
-    50% {
-        background-color: red;
-    }
-    100% {
-        margin-left: 500px;
-        background-color: blue;
-    }
+div:active {
+    background-color: red;
+    color: white;
 }
