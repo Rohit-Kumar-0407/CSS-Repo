@@ -9,6 +9,15 @@ div {
 }
 
 @keyframes animate {
-    from {margin-left: 0px;}
-    to {margin-left: 1000px;}
+    0% {
+        margin-left: 0px;
+        background-color: aquamarine;
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        margin-left: 500px;
+        background-color: blue;
+    }
 }
